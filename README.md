@@ -7,7 +7,7 @@ This is a prototype for delivery app, I made for gathering functional and non-fu
  
 ### How To clone the App:
 - Open gitBash wherever you want to save the project on your device.
-- Clone the repository to your device (git clone repo link).
+- Clone the repository to your device (git clone https://github.com/SaifHayek/Delivery-Prototype.git).
 - Enter repo cd nameOfRepo
 - Type -> code .
 - Navigate to the live server from the HTML file.
