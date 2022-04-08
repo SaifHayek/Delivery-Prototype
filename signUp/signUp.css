@@ -1,0 +1,56 @@
+/* General styles */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/* header styles */
+header{
+    background-color: orange;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main styles */
+main{
+    background-color: rgb(47, 43, 43);
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    padding: 10px 0 0 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+main h2{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 60%;
+    margin: 5px auto;
+    padding: 5px;
+}
+form button{
+    padding: 3px;
+    font-size: 1.1em;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    main{
+       width: 70%;
+    }
+}

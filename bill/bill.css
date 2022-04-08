@@ -1,0 +1,43 @@
+/* General styles */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/* header styles */
+header{
+    background-color: orange;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+}
+/* main styles */
+table{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 120px;
+    font-size: 1.4em;
+}
+table th , table td{
+    border: 1px solid black;
+}
+main button{
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+   font-size: 1.2em;
+   margin-bottom: 7px;
+   margin-top: 7px;
+   background-color: orange;
+   color: white;
+   border: none;
+   border-radius: 25px;
+}

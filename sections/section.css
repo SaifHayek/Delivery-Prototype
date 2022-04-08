@@ -1,0 +1,47 @@
+/* General styles */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header styles */
+header{
+    background-color: orange;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main styles */
+main h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+.food-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.food-sections .image img{
+    width: 180px;
+    margin-right: 10px;
+}
+.food-sections .image{
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .food-sections .image img{
+        width: 280px;
+        margin-right: 10px;
+    }
+}
